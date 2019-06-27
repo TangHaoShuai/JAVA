@@ -11,11 +11,12 @@ public class TsetController {
     @ResponseBody
     @RequestMapping("mzz")
    public String testCon(){
-       TsetService tsetService =new TsetService();
+    /*   TsetService tsetService =new TsetService();
        String A=tsetService.A1();
         Demo demo =new Demo();
         String B=demo.A2();
-       return A+B+Demo.A3();
+       return A+B+Demo.A3();*/
+    return "mzzzzzz";
    }
 
 }
